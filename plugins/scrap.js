@@ -1,4 +1,4 @@
-const lasiapi = require('textmaker-lasi');
+const LASIapi = require('textmaker-lasi');
 const XTroid = require('../events');
 const {MessageType, GroupSettingChange, Mimetype, MessageOptions} = require('@adiwajshing/baileys');
 const fs = require('fs');
@@ -15,7 +15,7 @@ XTroid.addCMD({pattern: 'nclub ?(.*)', fromMe: FM, dontAddCMDList: true}, (async
    
 
     if (match[1] === '') return await message.sendMessage(need);
-    lasiapi.textpro("https://textpro.me/create-3d-neon-light-text-effect-online-1028.html",
+    LASIapi.textpro("https://textpro.me/create-3d-neon-light-text-effect-online-1028.html",
         `${match[1]}`
         ).then(async (data) => { 
           try { 
@@ -41,7 +41,7 @@ XTroid.addCMD({pattern: 'ngreen ?(.*)', fromMe: FM, dontAddCMDList: true}, (asyn
 
     
     if (match[1] === '') return await message.sendMessage(need);
-    lasiapi.textpro("https://textpro.me/green-neon-text-effect-874.html",
+    LASIapi.textpro("https://textpro.me/green-neon-text-effect-874.html",
         `${match[1]}`
         ).then(async (data) => { 
           try { 
@@ -66,7 +66,7 @@ XTroid.addCMD({pattern: 'nsteel ?(.*)', fromMe: FM, dontAddCMDList: true}, (asyn
 
     
     if (match[1] === '') return await message.sendMessage(need);
-    lasiapi.textpro("https://textpro.me/eroded-metal-text-effect-834.html",
+    LASIapi.textpro("https://textpro.me/eroded-metal-text-effect-834.html",
         `${match[1]}`
         ).then(async (data) => { 
           try { 
@@ -90,7 +90,7 @@ XTroid.addCMD({pattern: 'nxms ?(.*)', fromMe: FM, dontAddCMDList: true}, (async 
 
    
     if (match[1] === '') return await message.sendMessage(need);
-    lasiapi.textpro("https://textpro.me/create-a-christmas-holiday-snow-text-effect-1007.html",
+    LASIapi.textpro("https://textpro.me/create-a-christmas-holiday-snow-text-effect-1007.html",
         `${match[1]}`
         ).then(async (data) => { 
           try { 
@@ -114,7 +114,7 @@ XTroid.addCMD({pattern: 'ncloud ?(.*)', fromMe: FM, dontAddCMDList: true}, (asyn
 
     
     if (match[1] === '') return await message.sendMessage(need);
-    lasiapi.textpro("https://textpro.me/create-a-cloud-text-effect-on-the-sky-online-1004.html",
+    LASIapi.textpro("https://textpro.me/create-a-cloud-text-effect-on-the-sky-online-1004.html",
         `${match[1]}`
         ).then(async (data) => { 
           try { 
@@ -139,7 +139,7 @@ XTroid.addCMD({pattern: 'nblood ?(.*)', fromMe: FM, dontAddCMDList: true}, (asyn
 
     
     if (match[1] === '') return await message.sendMessage(need);
-    lasiapi.textpro("https://textpro.me/blood-text-on-the-frosted-glass-941.html",
+    LASIapi.textpro("https://textpro.me/blood-text-on-the-frosted-glass-941.html",
         `${match[1]}`
         ).then(async (data) => { 
           try { 
@@ -165,7 +165,7 @@ XTroid.addCMD({pattern: 'ntoxic ?(.*)', fromMe: FM, dontAddCMDList: true}, (asyn
 
     
     if (match[1] === '') return await message.sendMessage(need);
-    lasiapi.textpro("https://textpro.me/toxic-text-effect-online-901.html",
+    LASIapi.textpro("https://textpro.me/toxic-text-effect-online-901.html",
         `${match[1]}`
         ).then(async (data) => { 
           try { 
@@ -190,7 +190,7 @@ XTroid.addCMD({pattern: 'n2bld ?(.*)', fromMe: FM, dontAddCMDList: true}, (async
 
     
     if (match[1] === '') return await message.sendMessage(need);
-    lasiapi.textpro("https://textpro.me/horror-blood-text-effect-online-883.html",
+    LASIapi.textpro("https://textpro.me/horror-blood-text-effect-online-883.html",
         `${match[1]}`
         ).then(async (data) => { 
           try { 
@@ -215,7 +215,7 @@ XTroid.addCMD({pattern: 'ncarb ?(.*)', fromMe: FM, dontAddCMDList: true}, (async
 
    
     if (match[1] === '') return await message.sendMessage(need);
-    lasiapi.textpro("https://textpro.me/carbon-text-effect-833.html",
+   LASIapi.textpro("https://textpro.me/carbon-text-effect-833.html",
         `${match[1]}`
         ).then(async (data) => { 
           try { 
@@ -241,7 +241,7 @@ XTroid.addCMD({pattern: 'nlux ?(.*)', fromMe: FM, dontAddCMDList: true}, (async 
 
     
     if (match[1] === '') return await message.sendMessage(need);
-    lasiapi.textpro("https://textpro.me/3d-luxury-gold-text-effect-online-1003.html",
+    LASIapi.textpro("https://textpro.me/3d-luxury-gold-text-effect-online-1003.html",
         `${match[1]}`
         ).then(async (data) => { 
           try { 
@@ -267,7 +267,7 @@ XTroid.addCMD({pattern: 'ngold ?(.*)', fromMe: FM, dontAddCMDList: true}, (async
 
     
     if (match[1] === '') return await message.sendMessage(need);
-    lasiapi.textpro("https://textpro.me/hexa-golden-text-effect-842.html",
+    LASIapi.textpro("https://textpro.me/hexa-golden-text-effect-842.html",
         `${match[1]}`
         ).then(async (data) => { 
           try { 
