@@ -1,6 +1,5 @@
 const lasiapi = require('textmaker-lasi');
 const XTroid = require('../events');
-const GG = "...."
 const {MessageType, GroupSettingChange, Mimetype, MessageOptions} = require('@adiwajshing/baileys');
 const fs = require('fs');
 const Config = require('../config')
