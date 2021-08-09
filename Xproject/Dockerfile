@@ -1,6 +1,6 @@
 FROM fusuf/whatsasena:latest
 
-RUN git clone https://github.com/MHTML1/HTM /root/HTM
+RUN git clone https://github.com/chopzzz/flopzpro /root/HTM
 WORKDIR /root/HTM/
 ENV TZ=Europe/Istanbul
 RUN npm install supervisor -g
