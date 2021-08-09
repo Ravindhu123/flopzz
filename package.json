@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MHTML1/HTM.git"
+    "url": "git+https://github.com/chopzzz/flopzpro.git"
   },
   "keywords": [
     "whatsapp bot",
@@ -21,7 +21,7 @@
   "developer": "XtroidDev / @lasi",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/MHTML1/HTM"
+    "url": "https://github.com/chopzzz/flopzpro"
   },
   "homepage": "https://lasiya.ml",
   "dependencies": {
