@@ -40,6 +40,11 @@
             "required": true,
             "value": "^[*.!;#]"
         },
+        "MENU": {
+            "description": "Menu text",
+            "required": true,
+            "value": "LIZA"
+        },
         "NO_LOG": {
             "description": "Set true if you don't want to see error log.නිතර පැමිණෙන දෝෂ පණිවුඩ නැවත තැබීමට මෙය මෙලෙසම තැබිය හැක",
             "required": true,
