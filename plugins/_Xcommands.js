@@ -34,16 +34,16 @@ if (Config.WORKTYPE == 'private') {
                 } else {
                     HANDLER = '.';
                 }
-                CMD_HELP += '*🪀 ' + Lang.COMMAND + ':* ```' + (match.length >= 3 ? (HANDLER + match[2]) : command.pattern) + (command.desc === '' ? '```\n\n' : '```\n');
-                if (command.desc !== '') CMD_HELP += '*🔖 ' + Lang.DESC + ':* ```' + command.desc + (command.warn === '' ? '```\n\n' : '```\n');
-                if (command.usage !== '') CMD_HELP += '*🀄️ ' + Lang.EXAMPLE + ':* ```' + command.usage + '```\n\n';
+                CMD_HELP += '*🎁 ' + Lang.COMMAND + ':* ```' + (match.length >= 3 ? (HANDLER + match[2]) : command.pattern) + (command.desc === '' ? '```\n\n' : '```\n');
+                if (command.desc !== '') CMD_HELP += '*🎉 ' + Lang.DESC + ':* ```' + command.desc + (command.warn === '' ? '```\n\n' : '```\n');
+                if (command.usage !== '') CMD_HELP += '*🥳 ' + Lang.EXAMPLE + ':* ```' + command.usage + '```\n\n';
                 if (command.warn !== '') CMD_HELP += '*⚠️ ' + Lang.WARN + ':* ```' + command.warn + '```\n\n';
 
             }
         );
         
              await message.client.sendMessage(
-                message.jid,'╔════════════════════╗\n  ✥▬▬ *'+Config.MENUTEXT+'* ▬▬✥\n\n' + CMD_HELP, MessageType.text
+                message.jid,'_*'+Config.MENUTEXT+'*_\n\n' + CMD_HELP, MessageType.text
             );    
     } else {
         var CMD_HELP = '';
@@ -64,9 +64,9 @@ if (Config.WORKTYPE == 'private') {
                     } else {
                         HANDLER = '.';
                     }
-                    CMD_HELP += '*🪀 ' + Lang.COMMAND + ':* ```' + (cmatch.length >= 3 ? (HANDLER + cmatch[2]) : command.pattern) + (command.desc === '' ? '```\n\n' : '```\n');
-                    if (command.desc !== '') CMD_HELP += '*🔖 ' + Lang.DESC + ':* ```' + command.desc + (command.warn === '' ? '```\n\n' : '```\n');
-                    if (command.usage !== '') CMD_HELP += '*💎 ' + Lang.EXAMPLE + ':* ```' + command.usage + '```\n\n';
+                    CMD_HELP += '*🎁 ' + Lang.COMMAND + ':* ```' + (cmatch.length >= 3 ? (HANDLER + cmatch[2]) : command.pattern) + (command.desc === '' ? '```\n\n' : '```\n');
+                    if (command.desc !== '') CMD_HELP += '*🎉 ' + Lang.DESC + ':* ```' + command.desc + (command.warn === '' ? '```\n\n' : '```\n');
+                    if (command.usage !== '') CMD_HELP += '*🥳 ' + Lang.EXAMPLE + ':* ```' + command.usage + '```\n\n';
                     if (command.warn !== '') CMD_HELP += '*⚠️ ' + Lang.WARN + ':* ```' + command.warn + '```\n\n';
 
                 }
@@ -74,7 +74,7 @@ if (Config.WORKTYPE == 'private') {
         );
         if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
        await message.client.sendMessage(
-                message.jid,'╔════════════════════════════╗\n  ✥▬▬ *'+Config.MENUTEXT+'* ▬▬✥\n\n' + CMD_HELP, MessageType.text
+                message.jid,'_*'+Config.MENUTEXT+'*_\n\n' + CMD_HELP, MessageType.text
             );
     }
 }));
@@ -102,16 +102,16 @@ else if (Config.WORKTYPE == 'public') {
                 } else {
                     HANDLER = '.';
                 }
-                CMD_HELP += '*🪀 ' + Lang.COMMAND + ':* ```' + (match.length >= 3 ? (HANDLER + match[2]) : command.pattern) + (command.desc === '' ? '```\n\n' : '```\n');
-                if (command.desc !== '') CMD_HELP += '*🔖 ' + Lang.DESC + ':* ```' + command.desc + (command.warn === '' ? '```\n\n' : '```\n');
-                if (command.usage !== '') CMD_HELP += '*🀄️ ' + Lang.EXAMPLE + ':* ```' + command.usage + '```\n\n';
+                CMD_HELP += '*🎁 ' + Lang.COMMAND + ':* ```' + (match.length >= 3 ? (HANDLER + match[2]) : command.pattern) + (command.desc === '' ? '```\n\n' : '```\n');
+                if (command.desc !== '') CMD_HELP += '*🎉 ' + Lang.DESC + ':* ```' + command.desc + (command.warn === '' ? '```\n\n' : '```\n');
+                if (command.usage !== '') CMD_HELP += '*🥳 ' + Lang.EXAMPLE + ':* ```' + command.usage + '```\n\n';
                 if (command.warn !== '') CMD_HELP += '*⚠️ ' + Lang.WARN + ':* ```' + command.warn + '```\n\n';
 
             }
         );
         
         await message.client.sendMessage(
-                message.jid,'╔════════════════════╗\n  ✥▬▬ *'+Config.MENUTEXT+'* ▬▬✥\n\n' + CMD_HELP, MessageType.text
+                message.jid,'_*'+Config.MENUTEXT+'*_\n\n' + CMD_HELP, MessageType.text
             );     
     } else {
         var CMD_HELP = '';
@@ -132,9 +132,9 @@ else if (Config.WORKTYPE == 'public') {
                     } else {
                         HANDLER = '.';
                     }
-                    CMD_HELP += '*🪀 ' + Lang.COMMAND + ':* ```' + (cmatch.length >= 3 ? (HANDLER + cmatch[2]) : command.pattern) + (command.desc === '' ? '```\n\n' : '```\n');
-                    if (command.desc !== '') CMD_HELP += '*🔖 ' + Lang.DESC + ':* ```' + command.desc + (command.warn === '' ? '```\n\n' : '```\n');
-                    if (command.usage !== '') CMD_HELP += '*💎 ' + Lang.EXAMPLE + ':* ```' + command.usage + '```\n\n';
+                    CMD_HELP += '*🎁 ' + Lang.COMMAND + ':* ```' + (cmatch.length >= 3 ? (HANDLER + cmatch[2]) : command.pattern) + (command.desc === '' ? '```\n\n' : '```\n');
+                    if (command.desc !== '') CMD_HELP += '*🎉 ' + Lang.DESC + ':* ```' + command.desc + (command.warn === '' ? '```\n\n' : '```\n');
+                    if (command.usage !== '') CMD_HELP += '*🥳 ' + Lang.EXAMPLE + ':* ```' + command.usage + '```\n\n';
                     if (command.warn !== '') CMD_HELP += '*⚠️ ' + Lang.WARN + ':* ```' + command.warn + '```\n\n';
 
                 }
@@ -142,7 +142,7 @@ else if (Config.WORKTYPE == 'public') {
         );
         if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
         await message.client.sendMessage(
-                message.jid,'✥▬▬ *'+Config.MENUTEXT+'* ▬▬✥\n\n\n' + CMD_HELP, MessageType.text
+                message.jid,'_*'+Config.MENUTEXT+'*_\n\n\n' + CMD_HELP, MessageType.text
             );
     }
 }));
@@ -166,16 +166,16 @@ XTroid.addCMD({pattern: 'x ?(.*)', fromMe: true, dontAddCMDList: true}, (async (
                 } else {
                     HANDLER = '.';
                 }
-                CMD_HELP += '*🪀 ' + Lang.COMMAND + ':* ```' + (match.length >= 3 ? (HANDLER + match[2]) : command.pattern) + (command.desc === '' ? '```\n\n' : '```\n');
-                if (command.desc !== '') CMD_HELP += '*🔖 ' + Lang.DESC + ':* ```' + command.desc + (command.warn === '' ? '```\n\n' : '```\n');
-                if (command.usage !== '') CMD_HELP += '*🀄️ ' + Lang.EXAMPLE + ':* ```' + command.usage + '```\n\n';
+                CMD_HELP += '*🎁 ' + Lang.COMMAND + ':* ```' + (match.length >= 3 ? (HANDLER + match[2]) : command.pattern) + (command.desc === '' ? '```\n\n' : '```\n');
+                if (command.desc !== '') CMD_HELP += '*🎉 ' + Lang.DESC + ':* ```' + command.desc + (command.warn === '' ? '```\n\n' : '```\n');
+                if (command.usage !== '') CMD_HELP += '*🥳 ' + Lang.EXAMPLE + ':* ```' + command.usage + '```\n\n';
                 if (command.warn !== '') CMD_HELP += '*⚠️ ' + Lang.WARN + ':* ```' + command.warn + '```\n\n';
 
             }
         );
         
         await message.client.sendMessage(
-                message.jid,'╔════════════════════╗\n  ✥▬▬ *'+Config.MENUTEXT+'* ▬▬✥\n\n' + CMD_HELP, MessageType.text
+                message.jid,'_*'+Config.MENUTEXT+'*_\n\n' + CMD_HELP, MessageType.text
             );     
     } else {
         var CMD_HELP = '';
@@ -196,9 +196,9 @@ XTroid.addCMD({pattern: 'x ?(.*)', fromMe: true, dontAddCMDList: true}, (async (
                     } else {
                         HANDLER = '.';
                     }
-                    CMD_HELP += '*🪀 ' + Lang.COMMAND + ':* ```' + (cmatch.length >= 3 ? (HANDLER + cmatch[2]) : command.pattern) + (command.desc === '' ? '```\n\n' : '```\n');
-                    if (command.desc !== '') CMD_HELP += '*🔖 ' + Lang.DESC + ':* ```' + command.desc + (command.warn === '' ? '```\n\n' : '```\n');
-                    if (command.usage !== '') CMD_HELP += '*💎 ' + Lang.EXAMPLE + ':* ```' + command.usage + '```\n\n';
+                    CMD_HELP += '*🎁 ' + Lang.COMMAND + ':* ```' + (cmatch.length >= 3 ? (HANDLER + cmatch[2]) : command.pattern) + (command.desc === '' ? '```\n\n' : '```\n');
+                    if (command.desc !== '') CMD_HELP += '*🎉 ' + Lang.DESC + ':* ```' + command.desc + (command.warn === '' ? '```\n\n' : '```\n');
+                    if (command.usage !== '') CMD_HELP += '*🥳 ' + Lang.EXAMPLE + ':* ```' + command.usage + '```\n\n';
                     if (command.warn !== '') CMD_HELP += '*⚠️ ' + Lang.WARN + ':* ```' + command.warn + '```\n\n';
 
                 }
@@ -206,7 +206,7 @@ XTroid.addCMD({pattern: 'x ?(.*)', fromMe: true, dontAddCMDList: true}, (async (
         );
         if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
         await message.client.sendMessage(
-                message.jid,'✥▬▬ *'+Config.MENUTEXT+'* ▬▬✥\n\n\n' + CMD_HELP, MessageType.text
+                message.jid,'_*'+Config.MENUTEXT+'*_\n\n\n' + CMD_HELP, MessageType.text
             );
     }
 }));
