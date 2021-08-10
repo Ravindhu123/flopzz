@@ -32,7 +32,7 @@ XTroid.addCMD({pattern: 'nclub ?(.*)', fromMe: FM, dontAddCMDList: true}, (async
               console.log(err)
           } 
        
-   });});
+   });}));
 }));
 
 
