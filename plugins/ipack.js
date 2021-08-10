@@ -367,7 +367,7 @@ else if (Config.WORKTYPE == 'public') {
     }));
     
     XTroid.addCMD({pattern: 'bot', fromMe: false, deleteCommand: false,}, (async (message, match) => {
-var lasiyasimg = await axios.get(`https://telegra.ph/file/145ee2d4fb11363f72582.jpg`, { responseType: 'arraybuffer' })
+var lasiyasimg = await axios.get(`https://github.com/udnisap208/flopzbot/blob/main/123.jpg?raw=true`, { responseType: 'arraybuffer' })
       await message.client.sendMessage(message.jid, Buffer.from(lasiyasimg.data), MessageType.image, {mimetype: Mimetype.png, caption: '                  _*LIZA*_ \n\n\n❍ 𝗛𝗼𝘀𝘁𝗲𝗱 ➤ 𝘼𝙒𝙎\n❍ 𝗩𝗲𝗿𝘀𝗶𝗼𝗻 ➤ 𝐕'+Config.VERSION+'\n❍ 𝗕𝗿𝗮𝗻𝗰𝗵  ➤ *'+Config.BRANCH+'*\n            \n'})
     }));
 
