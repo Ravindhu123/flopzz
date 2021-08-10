@@ -23,7 +23,7 @@ if (Config.WORKTYPE == 'private') {
         var lasiyasimg = await axios.get(`https://docs-jojo.herokuapp.com/api/randomloli`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(lasiyasimg.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
-    });
+    
     }));
 
 
@@ -33,7 +33,7 @@ if (Config.WORKTYPE == 'private') {
        var lasiyasimg = await axios.get(`https://bx-${Config.ON}.herokuapp.com/api/sfw/waifu?apikey=${Config.CCN}`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(lasiyasimg.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
-    });
+    
     }));
 
 
@@ -42,7 +42,7 @@ if (Config.WORKTYPE == 'private') {
         var lasiyasimg = await axios.get(`https://bx-${Config.ON}.herokuapp.com/api/sfw/awoo?apikey=${Config.CCN}`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(lasiyasimg.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
-    });
+    
     }));   
     
     
@@ -51,7 +51,7 @@ if (Config.WORKTYPE == 'private') {
         var lasiyasimg = await axios.get(`https://bx-${Config.ON}.herokuapp.com/api/sfw/shinobu?apikey=${Config.CCN}`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(lasiyasimg.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
-    });
+    
     }));
 
     XTroid.addCMD({ pattern: 'rwtc ?(.*)', fromMe: true,dontAddCMDList: true }, (async (message, match) => {
@@ -60,7 +60,7 @@ if (Config.WORKTYPE == 'private') {
         var lasiyasimg = await axios.get(`https://bx-${Config.ON}.herokuapp.com/api/sfw/megumin?apikey=${Config.CCN}`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(lasiyasimg.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
-    });
+    
     }));
 
 }
@@ -73,7 +73,7 @@ else if (Config.WORKTYPE == 'public') {
         var lasiyasimg = await axios.get(`https://docs-jojo.herokuapp.com/api/randomloli`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(lasiyasimg.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
-    });
+    
     }));
 
 
@@ -84,7 +84,7 @@ else if (Config.WORKTYPE == 'public') {
         var lasiyasimg = await axios.get(`https://bx-${Config.ON}.herokuapp.com/api/sfw/waifu?apikey=${Config.CCN}`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(lasiyasimg.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
-    });
+    
     }));
 
     XTroid.addCMD({ pattern: 'rwolf ?(.*)', fromMe: false,dontAddCMDList: true }, (async (message, match) => {
@@ -93,8 +93,7 @@ else if (Config.WORKTYPE == 'public') {
         var lasiyasimg = await axios.get(`https://bx-${Config.ON}.herokuapp.com/api/sfw/awoo?apikey=${Config.CCN}`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(lasiyasimg.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
-    });
-    }));  
+        }));  
 
 
 
@@ -103,7 +102,7 @@ else if (Config.WORKTYPE == 'public') {
         var lasiyasimg = await axios.get(`https://bx-${Config.ON}.herokuapp.com/api/sfw/shinobu?apikey=${Config.CCN}`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(lasiyasimg.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
-    });
+    
     }));
 
 
@@ -112,7 +111,7 @@ else if (Config.WORKTYPE == 'public') {
         var lasiyasimg = await axios.get(`https://bx-${Config.ON}.herokuapp.com/api/sfw/megumin?apikey=${Config.CCN}`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(lasiyasimg.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.CAPTION_KEY})
-    });
+    
     }));
 
 
