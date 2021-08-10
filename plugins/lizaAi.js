@@ -58,7 +58,7 @@ XTroid.addCMD({on: 'text', fromMe: wk, dontAddCMDList: true, deleteCommand: fals
         var trmsg = finm
 
         var uren = encodeURI(trmsg)
-        await axios.get('http://api.brainshop.ai/get?bid=157582&key=HzYiQOTcF1zOB0cs&uid=' + unique_ident + '&msg=' + uren).then(async (response) => {
+        await axios.get('http://api.brainshop.ai/get?bid=158471&key=0DJx1ekUoRqmvrcZ&uid=' + unique_ident + '&msg=' + uren).then(async (response) => {
             var fins = ''                           
             if (conf.LANG !== 'EN') {
                 ceviri = await translatte(response.data.cnt, {from: 'auto', to: conf.LANG});
