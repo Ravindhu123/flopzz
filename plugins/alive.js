@@ -20,7 +20,7 @@ XTroid.addCMD(
       MessageType.image,
       {
         mimetype: Mimetype.png,
-        caption: "            " + Config.ALIVETEXT + "\n            A L I V E",
+        caption: "               " + Config.ALIVETEXT + "\n                A L I V E",
       }
     );
   }
