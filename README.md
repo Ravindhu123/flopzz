@@ -1,4 +1,4 @@
-# flopzpro
+# XTroid PREMIUM
 
 [![Run on Repl.it](https://repl.it/badge/github/phaticusthiccy/WhatsAsenaDuplicated)](https://replit.com/@lasindu123/XTROID)
 
