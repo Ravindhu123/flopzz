@@ -9,7 +9,7 @@ const { execFile } = require('child_process');
 const cwebp = require('cwebp-bin');
 const Language = require('../language');
 const Lang = Language.getString('ttp');
-const ll = "To make awesome logos"
+const ll = "To Make Awsome Logos to Try This"
 const ddd = "ඔබට විවිධාකාරයේ ලෝගෝ සෑදීමට"
 if (Config.WORKTYPE == 'private') {
      XTroid.addCMD({ pattern: 'zpack', fromMe: true, desc: ll }, (async (message, match) => {
